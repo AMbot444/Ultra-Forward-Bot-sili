@@ -10,7 +10,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "73bf36889a548e76e5132fb2b86d150e")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "Auto_Forward") 
-    DATABASE_URI = environ.get("DATABASE", "")
+    DATABASE_URI = environ.get("DATABASE_URI", "")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '6658581796').split()]
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002223993999'))
